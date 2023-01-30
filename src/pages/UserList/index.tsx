@@ -17,7 +17,7 @@ const tableConfigs: Omit<TableProps<User>, "data"> = {
     },
   ],
   transform: {
-    login: (value) => <Link to={`/users/${value}`}>{value}</Link>,
+    login: (value) => <Link to={`/${value}`}>{value}</Link>,
   },
 };
 
